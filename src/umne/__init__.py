@@ -10,3 +10,7 @@ from . import transformers
 from . import split
 from . import rsa
 from . import stats
+
+
+def version():
+    return 0, 1
