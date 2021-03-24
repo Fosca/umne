@@ -27,8 +27,8 @@ import matplotlib.animation as animation
 from matplotlib.collections import LineCollection
 from matplotlib.backends.backend_pdf import PdfPages
 
-from umne import transformers
-import umne
+from src.umne import transformers
+import src.umne as umne
 
 
 plt.rcParams['animation.ffmpeg_path'] = u'/usr/local/bin/ffmpeg'

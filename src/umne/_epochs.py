@@ -15,7 +15,7 @@ import pandas as pd
 from autoreject import get_rejection_threshold, compute_thresholds
 
 import mne
-import umne
+import src.umne as umne
 
 
 #-------------------------------------------------------------------------
